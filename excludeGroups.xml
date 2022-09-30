@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Excl">
+    <test name = "Exclude Group">
+        <groups>
+            <run>
+                <exclude name="sanity"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="TestNGTests.CartTest"></class>
+            <class name="TestNGTests.JsonParserTest"></class>
+            <class name="TestNGTests.RealItemTest"></class>
+            <class name="TestNGTests.VirtualItemTest"></class>
+        </classes>
+
+    </test>
+</suite>
