@@ -1,4 +1,4 @@
-package TestNGTests;
+package testng_tests;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -15,7 +15,7 @@ public class VirtualItemTest {
         softAssert = new SoftAssert();
     }
 
-    @Test(groups = {"regression"},invocationCount = 2)
+    @Test(groups = {"regression"})
     void setNameVirtualItem() {
         virtualItem.setName("Windows");
         final String nameRealItem = virtualItem.getName();

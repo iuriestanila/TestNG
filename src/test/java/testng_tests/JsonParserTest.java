@@ -1,4 +1,4 @@
-package TestNGTests;
+package testng_tests;
 
 import com.google.gson.Gson;
 import org.testng.Assert;

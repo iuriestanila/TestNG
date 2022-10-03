@@ -6,13 +6,13 @@
 
         <classes>
 
-            <class name="TestNGTests.CartTest">
+            <class name="testng_tests.CartTest">
                 <methods>
                     <exclude name="totalPriceRealItem"/>
                 </methods>
             </class>
 
-            <class name="TestNGTests.JsonParserTest">
+            <class name="testng_tests.JsonParserTest">
                 <methods>
                     <include name="FileNotFoundExceptionFileWriter"/>
                 </methods>

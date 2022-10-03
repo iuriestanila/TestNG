@@ -1,4 +1,4 @@
-package TestNGTests;
+package testng_tests;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -15,7 +15,7 @@ public class RealItemTest {
         softAssert = new SoftAssert();
     }
 
-    @Test(groups = {"sanity"}, invocationCount = 3)
+    @Test(groups = {"sanity"})
     void setNameRealItem() {
         car.setPrice(500);
         final double priceRealItem = car.getPrice();

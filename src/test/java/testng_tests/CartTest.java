@@ -1,4 +1,4 @@
-package TestNGTests;
+package testng_tests;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
@@ -22,7 +22,7 @@ public class CartTest {
         softAssert = new SoftAssert();
     }
 
-    @Test(groups = {"sanity"},priority = 2)
+    @Test(groups = {"sanity"})
     void totalPriceRealItem() {
         car.setName("Audi");
         car.setPrice(32026.9);
@@ -35,7 +35,7 @@ public class CartTest {
     }
 
     @Parameters({"name", "price","weight"})
-    @Test(groups = "regression", priority = 1)
+    @Test(groups = "regression")
     void addRealItemAsInput(@Optional("Audi") String name,@Optional("32026.9") double price,
                             @Optional("1560.7") double weight) {
         car.setName(name);
