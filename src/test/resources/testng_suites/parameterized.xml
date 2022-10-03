@@ -9,7 +9,7 @@
         <parameter name="weight" value="1560.7"/>
 
         <classes>
-            <class name="testng_tests.CartTest"></class>
+            <class name="CartTest"></class>
         </classes>
 
     </test>
