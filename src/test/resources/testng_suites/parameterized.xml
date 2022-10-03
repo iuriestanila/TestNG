@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Cart parameters">
+    <test name = "parameterized">
+
+        <parameter name="name" value="Audi"/>
+        <parameter name="price" value="32026.9"/>
+        <parameter name="weight" value="1560.7"/>
+
+        <classes>
+            <class name="CartTest"></class>
+        </classes>
+
+    </test>
+</suite>
+
